@@ -54,7 +54,7 @@ node_templates:
       resource_config:
         source:
           location: https://github.com/cloudify-community/ansible-custom-workflow/archive/refs/heads/master.zip
-        source_path: terraform/aws/network/vm
+        source_path: terraform/aws/vm/
         variables:
           access_key: { get_secret: aws_access_key_id }
           secret_key: { get_secret: aws_secret_access_key }
