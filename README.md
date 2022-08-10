@@ -7,3 +7,9 @@ You can use this example by uploading the blueprint archive to your Cloudify man
 ```
 cfy blueprint upload -b Ansible-Custom-Workflow https://github.com/cloudify-community/ansible-custom-workflow/archive/refs/heads/master.zip
 ```
+
+Alternatively, you can upload and trigger an installation of the blueprint in a single command:
+
+```
+cfy install -b Ansible-Custom-Workflow https://github.com/cloudify-community/ansible-custom-workflow/archive/refs/heads/master.zip
+```
